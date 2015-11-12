@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>task4</title>
+    <style type="text/css">
+        img,div,body,p,span{margin:0;padding:0;}
+        /*@media screen and (max-width: 640px) and (min-width: 550px) {*/
+            /*body{*/
+
+                /*font-size: 80%;*/
+            /*}*/
+        /*}*/
+        /*@media screen and (max-width: 550px) and (min-width: 450px) {*/
+            /*body{*/
+
+                /*font-size: 60%;*/
+            /*}*/
+        /*}*/
+        /*@media screen and (max-width: 450px) and (min-width: 350px) {*/
+            /*body{*/
+
+                /*font-size: 40%;*/
+            /*}*/
+        /*}*/
+        /*@media screen and (max-width: 350px)  {*/
+            /*body{*/
+
+                /*font-size: 20%;*/
+                /*#circle{*/
+                    /*padding-left: 35%;*/
+                /*}*/
+            /*}*/
+        }
+        body{
+
+            font-family: "Hiragino Sans GB W3", sans-serif;
+            /*font-size: 16px;*/
+        }
+        #wrap{
+
+            max-width: 640px;
+            margin:0 auto;
+            background:#29bde0;
+        }
+        div{width:100%;}
+
+        #head {
+            width:100%;
+            /*display: block;*/
+        }
+        #house{
+            width:8.4%;
+            padding-left: 3%;
+            padding-top: 5.6%;
+            /*background: yellow;*/
+        }
+        #header span{
+            font-size: 2.15em;
+            padding-left: 28.4%;
+            line-height: 0.5;
+        }
+        #circle{
+            width: 6.7%;
+            padding-left: 28%;
+            /*background: yellow;*/
+        }
+
+        #logo{
+            margin:6.7% auto 0;
+            display: block;
+            width:54%;
+        }
+        #introduce{
+            margin:3.5% 11% 0px ;
+            font-size:2.06em;
+            color:#ffc865;
+            font-weight: bold;
+            line-height: 1.24;
+        }
+        #message p{
+            margin-left: 11%;
+            font-size: 1.62em;
+            line-height: 1.57;
+            color:white;
+
+        }
+        #message .all-time{
+
+            margin-top: 10%;
+        }
+
+         #content{
+             background: white;
+         }
+        #content p{
+
+            margin-left: 11%;
+            font-size: 1.625em;
+            color:#a6a6a6;
+            /*position:relative;*/
+        }
+        #content .title{
+
+            font-size:1.87em;
+            line-height: 2;
+            color:#515151;
+        }
+        #content .title .time{
+            font-size: 0.6em;
+            padding-left: 50%;
+            color:#a6a6a6;
+
+        }
+        #footer{
+            height:20%;
+            background-color: #99dff0;
+            opacity:0.8;
+            filter:alpha(opacity=80); /* 针对 IE8 以及更早的版本 */
+            position:fixed;
+            bottom:0px;
+            max-width: 640px;
+            width:100%;
+        }
+
+        #share,#again{
+
+            width: 42%;
+            /*height: 80%;*/
+            display:inline-block;
+            font-size: 2.5em;
+            font-weight: bold;
+            color:white;
+            margin:7% 0;
+            text-align: center;
+            padding:3%  0 3% 0;
+            border-radius: 10px;
+        }
+        #again{
+           background: #f66f6f;
+           margin-left: 4%;
+        }
+        #share{
+            background: #fbb435;
+            margin-left: 8%;
+        }
+    </style>
+</head>
+<body>
+   <div id="wrap">
+       <div ><img  id="head" src="images4/head.png"></div>
+       <div id="header">
+           <img  id="house" src="images4/house.png"> <span>游戏结果</span> <img  id="circle" src="images4/circle.png">
+       </div>
+       <div><img  id="logo" src="images4/logo.png"></div>
+       <div><p id="introduce">太棒了！你知道吗？在捉鬼游戏中只有20%的卧底取得游戏最终的胜利哦！</p></div>
+       <div id="message">
+           <p class="all-time">本次游戏共计用时0小时25分钟</p>
+           <p>杀 手0人 &nbsp 警 察1人 平 民6人</p>
+           <p>狙击手0人 &nbsp医 生1人</p>
+           <p>卧底词汇：爱新觉罗</p>
+           <p>水民词汇：努尔哈赤</p>
+       </div>
+       <div id="content">
+           <p class="title">第一天<span class="time">0小时07分</span></p>
+           <p >晚上： 5号被杀手杀死，5号是水民</p>
+           <p >白天： 8号被全民投票杀死，8号是杀手</p>
+           <hr color="grey" />
+           <p class="title">第二天<span class="time">0小时07分</span></p>
+           <p >晚上： 5号被杀手杀死，5号是水民</p>
+           <p >白天： 8号被全民投票杀死，8号是杀手</p>
+           <p class="title" >第三天<span class="time">0小时07分</span></p>
+       </div>
+       <div id="footer"  ><p><span id="again" >再来一局</span><span  id="share">上传并分享</span></p>
+       </div>
+   </div>
+</body>
+</html>
