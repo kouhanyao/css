@@ -1,0 +1,188 @@
+div,body,p,span,ul,li{margin:0;padding:0;}
+
+#wrap{
+    max-width:640px;
+    margin: 0 auto;
+    background: #29bde0;
+}
+#head img{
+    width:100%;
+}
+@media screen and (max-width: 640px) and (min-width: 400px) {*/
+    body{
+        font-size: 80%;
+    }
+}
+@media screen and (max-width: 400px)  {
+    body{
+        font-size: 60%;
+    }
+}
+#menu{
+    width:100%;
+    background: #29bde0;
+    font-size:2.12rem;
+    padding-top:5.3%;
+    padding-bottom: 2.5%;
+    line-height:100%;
+    text-align: center;
+    position:relative;
+}
+#menu .menu{
+    width:6.25%;
+    height: 46%;
+    background-repeat: no-repeat;
+    background-size: 130% 620%;
+    /*background: red;*/
+  background-image: url('imgages6/mysprite.png');
+  background-position: 0px 0px;
+    position:absolute;
+    left:6%;
+    top:38%;
+
+
+}
+#menu .exit{
+    width:7%;
+    height:45.4%;
+    /*height:100%;*/
+    background-repeat: no-repeat;
+    background-size: 116% 670%;
+    /*background: red;*/
+  background-image: url('imgages6/mysprite.png');
+  background-position: left 19.12%;
+    position: absolute;
+    right:3.5%;
+    top:38%;
+}
+#music{
+    background: #b9e9f5;
+    font-size: 1.6em;
+    line-height: 100%;
+    padding:4.8% 0 4.8% 7.6%;
+    position: relative;
+}
+ #player{
+    width:8%;
+    height:62%;
+    /*background: red;*/
+    position:absolute;
+    right:2.6%;
+    top:19%;
+    background-repeat: no-repeat;
+    background-size:100% 477%;
+  background-image: url('imgages6/mysprite.png');
+  background-position: left 38.5%;
+    cursor: pointer;
+}
+#triangle{
+    width: 0;
+    height: 0;
+    border-left: 0.56em solid transparent;
+    border-right: 0.56em solid transparent;
+    border-top: 0.87em solid white;
+    margin-left:11.5%;
+    background: #29bde0;
+    /*font-size: 0;*/
+    /*line-height: 0;*/
+}
+#title{
+    font-size: 1.5em;
+    line-height: 1.18;
+    padding:3.8% 0 6.5% 11%;
+    background: #29bde0;
+}
+#content{
+    background: #29bde0;
+    overflow: hidden;
+}
+#content .box{
+    /*width:19.5%;*/
+    float:left;
+    width:21.5%;
+    overflow: hidden;
+    margin-left:11%;
+}
+#content .box1,#content .box4,#content .box7,#content .box10{
+    margin-left: 6.2%;
+}
+#content .box .layout{
+    border:6px solid white;
+}
+#content div p{
+    font-size: 1.87em;
+    line-height: 100%;
+    padding-top:32%;
+    padding-bottom:27%;
+    background: #f5c97b;
+    text-align: center;
+}
+#content div span {
+    font-size: 1.4em;
+    line-height: 131%;
+    text-align: center;
+    background: #83b09a;
+    display: block;
+}
+#content ul{
+    background:blue;
+}
+#content ul li{
+    width:22%;
+    padding-top:22%;
+    background: yellow;
+    list-style-type:none;
+    float:left;
+    margin:16% 0 16% 0;
+}
+#content .li1{
+    background-repeat: no-repeat;
+    background-size:173.3% 826.6%;
+  background-image: url('imgages6/mysprite.png');
+  background-position: left 60%;
+}
+#content .li2{
+    background-repeat: no-repeat;
+    background-size:173.3% 826.6%;
+  background-image: url('imgages6/mysprite.png');
+  background-position: left 72%;
+    /*background:red;*/
+    margin-left:4%;
+}
+#content .li3{
+    background-repeat: no-repeat;
+    background-size:173.3% 826.6%;
+  background-image: url('imgages6/mysprite.png');
+  background-position: left 86%;
+    margin-left:4%;
+}
+#content .li4{
+    background-repeat: no-repeat;
+    background-size:173.3% 826.6%;
+  background-image: url('imgages6/mysprite.png');
+  background-position: left 100%;
+    margin-left:4%;
+}
+#line{
+    width:85%;
+    background: #f5c97b;
+    margin-left:6.5%;
+    height: 2px;
+}
+#footer{
+    position:fixed;
+    bottom:0;
+    /*height:100%;*/
+    max-width:640px;
+    width:100%;
+    background:#29bde0;
+
+}
+#footer p{
+    font-size:2.5em;
+    line-height: 100%;
+    padding:4% 0 4% 0;
+    text-align: center;
+    margin:6% 11% ;
+    background: yellow;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>task6</title>
+    <link rel="stylesheet" type="text/css" href="task6/task6-sprite.css" />
+</head>
+<body>
+    <div id="wrap">
+        <div id="head"><img src="task6/imgages6/head.png" /></div>
+        <div id="menu">
+            <div class="menu"></div>
+            <span>投票</span>
+            <div class="exit"></div>
+        </div>
+        <div id="music">
+            发言讨论结束，请大家投票
+            <div id="player"></div>
+        </div>
+        <div id="triangle"></div>
+        <div id="title">点击得票数最多人的头像</div>
+        <div id="content">
+            <div class="box box1">
+                <div class="layout"><p>水民</p><span>1号</span></div>
+                <ul>
+                    <li class="li1"></li>
+                    <li class="li2"></li>
+                    <li class="li3"></li>
+                    <li class="li4"></li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <div class="layout"><p>水民</p><span>2号</span></div>
+                <ul>
+                    <li class="li1"></li>
+                    <li class="li2"></li>
+                    <li class="li3"></li>
+                    <li class="li4"></li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <div class="layout"><p>水民</p><span>3号</span></div>
+                <ul>
+                    <li class="li1"></li>
+                    <li class="li2"></li>
+                    <li class="li3"></li>
+                    <li class="li4"></li>
+                </ul>
+            </div>
+            <div class="box box4">
+                <div class="layout"><p>水民</p><span>4号</span></div>
+                <ul>
+                    <li class="li1"></li>
+                    <li class="li2"></li>
+                    <li class="li3"></li>
+                    <li class="li4"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="layout"><p>水民</p><span>5号</span></div>
+                <ul>
+                    <li class="li1"></li>
+                    <li class="li2"></li>
+                    <li class="li3"></li>
+                    <li class="li4"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="layout"><p>水民</p><span>6号</span></div>
+                <ul>
+                    <li class="li1"></li>
+                    <li class="li2"></li>
+                    <li class="li3"></li>
+                    <li class="li4"></li>
+                </ul>
+            </div>
+            <div class="box box7">
+                <div class="layout"><p>水民</p><span>7号</span></div>
+                <ul>
+                    <li class="li1"></li>
+                    <li class="li2"></li>
+                    <li class="li3"></li>
+                    <li class="li4"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="layout"><p>水民</p><span>8号</span></div>
+                <ul>
+                    <li class="li1"></li>
+                    <li class="li2"></li>
+                    <li class="li3"></li>
+                    <li class="li4"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="layout"><p>水民</p><span>9号</span></div>
+                <ul>
+                    <li class="li1"></li>
+                    <li class="li2"></li>
+                    <li class="li3"></li>
+                    <li class="li4"></li>
+                </ul>
+            </div>
+            <div class="box box10">
+                <div class="layout"><p>水民</p><span>10号</span></div>
+                <ul>
+                    <li class="li1"></li>
+                    <li class="li2"></li>
+                    <li class="li3"></li>
+                    <li class="li4"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="layout"><p>水民</p><span>11号</span></div>
+                <ul>
+                    <li class="li1"></li>
+                    <li class="li2"></li>
+                    <li class="li3"></li>
+                    <li class="li4"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="layout"><p>水民</p><span>12号</span></div>
+                <ul>
+                    <li class="li1"></li>
+                    <li class="li2"></li>
+                    <li class="li3"></li>
+                    <li class="li4"></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="footer"><div id="line"></div><p>投死</p></div>
+    </div>
+<script type="text/javascript" src="play-music6.js"></script>
+</body>
+</html>
