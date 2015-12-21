@@ -1,0 +1,497 @@
+p,body,ul,span,li,img{
+    padding:0;
+    margin:0;
+}
+@media screen  and (min-width:900px) {
+    #sedSide p{
+        padding:3.41% 0 3.41% 71.6%;
+    }
+    #fourSide .introduce li{
+        float:left;
+        list-style-type: none;
+        width:18.75%;
+        margin-left: 7%;
+    }
+    #fourSide .introduce li .title{
+        padding:13.3% 0;
+        font-size: 1.125em;
+        font-weight: bold;
+    }
+    #fourSide .introduce .one img{
+        width:19.11%;
+    }
+    #fourSide .introduce .two img{
+        width:26.7%;
+    }
+    #fourSide .introduce .three img{
+        width:23.1%;
+    }
+    #fourSide .introduce .four img{
+        width:5.7%;
+    }
+    #fourSide .teacher img{
+        width:41.481%;
+    }
+    #fourSide .teacher li{
+        margin-left:3.3333%;
+        width:22.5%;
+    }
+    #fourSide .teacher .one{
+        margin-left: 0;
+    }
+    #fourSide .solution li{
+        width:25.58%;
+        margin-left: 2.1%;
+        position: relative;
+    }
+    #fourSide .solution .four{
+        position:absolute;
+        left:81%;
+        top:0;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 400px) {
+    body{
+
+        font-size:90%;
+    }
+
+    #sedSide p{
+        padding:3.41% 0 3.41% 55%;
+    }
+    #fourSide .introduce{
+        margin-left: 5%;
+    }
+    #fourSide .introduce li{
+        list-style-type: none;
+        width:35%;
+        margin-left:6%;
+    }
+    #fourSide .introduce .one,#fourSide .introduce .three{
+        margin-left: 10%;
+        float:left;
+    }
+    #fourSide .introduce .one,#fourSide .introduce .two{
+        float:left;
+    }
+    #fourSide .introduce .three{
+        clear:both;
+    }
+   #fourSide .introduce .four{
+       float:left;
+       margin-left: 15%;
+   }
+
+    #fourSide .teacher li{
+
+        width:40%;
+        margin-left:6.3333%;
+    }
+    #fourSide .teacher .three{
+        clear:both;
+    }
+    #fourSide .solution .three{
+        clear:both;
+    }
+    #fourSide .solution{
+        margin-left: 7%;
+    }
+    #fourSide .solution li {
+        width:40%;
+        position: relative;
+    }
+}
+@media screen and (max-width: 400px)  {
+    #footer{
+        /*font-size: 40%;*/
+    }
+    #sedSide p{
+        padding:3.41% 0 3.41% 40%;
+    }
+    #fourSide .introduce li{
+        list-style-type: none;
+        width:50%;
+        margin-left:26.5%;
+    }
+    #fourSide .introduce .four p{
+        width:400%;
+    }
+    #fourSide .teacher li{
+        clear:both;
+        width:60%;
+        margin-left: 19%;
+    }
+    #fourSide  .solution{
+        margin-left: 8%;
+    }
+    #fourSide .solution li {
+        clear:both;
+        width:90%;
+        position: relative;
+
+    }
+    #fourSide .solution{
+        /*margin-left: 7%;*/
+    }
+    #fourSide .solution li {
+        /*width:40%;*/
+
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+    body{
+
+        font-size: 90%;
+    }
+}
+/*@media screen and (max-width: 950px) and (min-width: 850px) {*/
+    /*body{*/
+
+        /*font-size:80%;*/
+    /*}*/
+/*}*/
+/*@media screen and (max-width: 850px) and (min-width: 750px) {*/
+    /*body{*/
+
+        /*font-size: 70%;*/
+    /*}*/
+/*}*/
+@media screen and (max-width: 750px) and (min-width: 400px) {
+    /*body{*/
+
+        /*font-size: 50%;*/
+    /*}*/
+}
+@media screen and (max-width: 400px)  {
+    /*body{*/
+
+        /*font-size: 30%;*/
+/*}*/
+}
+#wrap{
+    max-width:1920px;
+    /*width:100%;*/
+    background: #fafafa;
+    font-family: "微软雅黑", sans-serif;
+    overflow-x: hidden;
+    line-height: 100%;
+}
+
+
+/*第一部分*/
+#topSide{
+    width:100%;
+    background: #ffffff;
+}
+#topSide div{
+    width:88.889%;
+    margin:0 auto;
+    color:#79c7a3;
+    position:relative;
+    /*vertical-align: middle;*/
+}
+#topSide p{
+    padding:1% 0 1% 0;
+    font-size: 0.875em;
+}
+#topSide ul{
+    position:absolute;
+    top:20%;
+    left:89.7%;
+    width:100%;
+}
+#topSide ul li{
+    width:2%;
+    list-style-type: none;
+    float:left;
+    margin-left:1.4%;
+}
+#topSide img{
+    width:100%;
+}
+
+
+/*第二部分*/
+#sedSide{
+    background: #29b078;
+}
+#sedSide div{
+    width:88.889%;
+    margin:0 auto;
+}
+#sedSide p{
+    font-size:1em;
+    /*padding:3.41% 0 3.41% 71.6%;*/
+    width:100%;
+    color:#ffffff;
+}
+#sedSide span{
+    margin-left:6%;
+}
+
+
+/*第三部分*/
+
+#trdSide{
+    position: relative;
+    /*overflow: hidden;*/
+    padding-bottom:31.25%;
+}
+#trdSide #banner {
+    width:500%;
+    position:absolute;
+    top:0;
+
+}
+#trdSide #banner img{
+    display:block;
+    float:left;
+    width:20%;
+}
+#trdSide #pre,#next,#circle{
+    position: absolute;
+}
+#trdSide #pre{
+    top:42.5%;
+    left:10%;
+    opacity:0.5;
+    filter:Alpha(opacity=50);
+    cursor:pointer;
+}
+#pre:hover,#next:hover{
+    opacity: 1;
+    filter:Alpha(opacity=100);
+}
+#trdSide #next{
+    top:42.5%;
+    right:10%;
+    opacity: 0.5;
+    filter:Alpha(opacity=50);
+    cursor:pointer;
+}
+#trdSide #circle{
+    position: absolute;
+    top:93.5%;
+    left:46.2%;
+    z-index: 4;
+    width:20%;
+}
+#trdSide #circle .on{
+    background: yellow;
+}
+#trdSide #circle li{
+    list-style-type: none;
+    width:4.1%;
+    padding-bottom:4.1%;
+    float:left;
+    border:2px solid #fff;
+    margin-left:4.1%;
+    border-radius:50%;
+}
+
+/*第四部分*/
+#fourSide{
+    width:88.889%;
+    margin:0 auto;
+    padding-top:8.4%;
+    line-height: 150%;
+    text-align: center;
+    background: #fafafa;
+}
+#fourSide .introduce{
+    width:100%;
+    overflow: hidden;
+}
+#fourSide .introduce .four{
+    width:15%;
+    /*margin-left:5.3%;*/
+    padding-top:5.25%;
+    text-align: left;
+    font-size: 1.125em;
+}
+#fourSide .introduce .four span{
+    color:green;
+    font-weight: bold;
+}
+#fourSide .introduce .four div{
+    margin-bottom:9%;
+}
+#fourSide .introduce .four p{
+    padding-bottom:15%;
+}
+#fourSide .introduce li .title{
+    padding:13.3% 0;
+    font-size: 1.125em;
+    font-weight: bold;
+}
+#fourSide .introduce li .content{
+    color:#999999;
+    text-align: left;
+}
+#fourSide .question{
+    text-align: center;
+    font-size: 1.125em;
+    padding:6.6% 0 3.6% 0;
+    font-weight: bold;
+}
+#fourSide .solution{
+    width:100%;
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+    color:#999999;
+}
+
+#fourSide .solution li,#fourSide .solution li p,#fourSide .solution li h1,#fourSide .solution li div{
+    float:left;
+}
+#fourSide .solution li p{
+    font-size: 0.875em;
+    margin-left:3.2%;
+    padding:5% 0;
+    width:50%;
+    text-align: left;
+}
+#fourSide .solution h1{
+    position:absolute;
+    right:0;
+    top:0;
+    width:4.88%;
+}
+#fourSide .solution .one{
+    margin-left:0;
+}
+#fourSide .solution div{
+    background: #ffffff;
+    width:22.8%;
+    font-size:1.125em ;
+    padding:8.8% 0 8.8% 0;
+    color:#29b078;
+    line-height: 100%;
+    border-radius: 50%;
+}
+
+/*#fourSide .solution  img{*/
+    /*width:100%;*/
+/*}*/
+#fourSide  .separationSolution{
+    padding-top:8.8%;
+}
+#fourSide .result{
+    font-size: 1.125em;
+    padding:9.5% 0 7.5% 0;
+    font-weight: 700;
+}
+#fourSide .teacher{
+    overflow: hidden;
+    width:100%;
+}
+#fourSide .teacher li{
+    list-style-type: none;
+    float:left;
+    background: #ffffff;
+    font-weight: 700;
+}
+#fourSide .teacher .content{
+    text-align: left;
+    padding:9.2% 10.3% 14.8% 9.2%;
+    color:#999999;
+    font-weight: normal;
+}
+#fourSide .footCircle{
+    padding:1.6% 0 9% 0;
+}
+#fourSide .cooperateCompany{
+    font-size: 1.125em;
+    font-weight: 700;
+    padding-bottom:5.8%;
+}
+#fourSide .company{
+    padding:5% 0 5% 0;
+    width:100%;
+    background: #ffffff;
+    /*margin:0 auto;*/
+}
+#fourSide .company img{
+    margin-left:7%;
+}
+#fourSide .company .img1{
+    margin-left:0;
+    width:11%;
+}
+#fourSide .company .img2{
+    width:4.5%;
+}
+#fourSide .company .img3{
+    width:11%;
+}
+#fourSide .company .img4{
+    width:14%;
+}
+#fourSide .company .img5{
+    width:10.5%;
+}
+#fourSide .friendLink{
+    margin-top:7.8%;
+    overflow: hidden;
+    background: #ffffff;
+}
+#fourSide .friendLink p{
+    font-size: 1.125em;
+    padding:2% 0 2.5% 0;
+    font-weight: bold;
+}
+#fourSide .friendLink ul{
+    width:100%;
+    /*padding-left:18.9%;*/
+    color:#999999;
+    font-size: 0.875em;
+}
+#fourSide .friendLinkTwo{
+    margin:2.5% 0 6% 0;
+    clear:both;
+}
+#fourSide .friendLink ul li{
+    float:left;
+    /*width:6.5%;*/
+    margin-left:4%;
+    list-style-position: inside;
+    /*width:7%;*/
+}
+
+/*第五部分*/
+#fiveSide{
+    background: #29b078;
+    padding-top:3%;
+    width:100%;
+}
+#fiveSide div{
+    color:#ffffff;
+    width:88.889%;
+    margin:0 auto;
+    /*background: yellow;*/
+}
+#fiveSide ul{
+    overflow: hidden;
+    position: relative;
+}
+#fiveSide ul li{
+    float:left;
+    list-style-type: none;
+}
+#fiveSide ul  .one{
+    width:18%;
+}
+#fiveSide ul  .two{
+    margin-left:12.5%;
+    width:17.8%;
+}
+#fiveSide ul .three {
+    position: absolute;
+    right: 10%;
+}
+
+#fiveSide .footer{
+    padding:3% 0 0.5% 0;
+    text-align: center;
+}
