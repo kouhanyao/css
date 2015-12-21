@@ -1,0 +1,274 @@
+table,body,tr,td,p,span,ul,li,img{
+    padding:0;
+    margin:0;
+}
+@media screen  and (min-width: 900px) {
+    header table{
+        width:10%;
+    }
+    header img{
+        width:63%;
+    }
+    /*第二部分*/
+
+    #logo img{
+        width:9%;
+    }
+    /*第四部分*/
+    .company{
+        width:25.4%;
+    }
+    .company,.content{
+        float:left;
+    }
+    .company p{
+        padding:6.5% 0 21% 0;
+    }
+    .company ul li{
+        padding-left:37.7%;
+        margin-bottom: 12.1%;
+    }
+    .content {
+        width:72.75%;
+    }
+    .content img{
+        width:14%;
+        float:left;
+    }
+    .content .one{
+        padding-left:27.75%;
+    }
+    footer .footerOne div{
+        float: left;
+    }
+    footer .footerOne .three{
+        position: absolute;
+        right:4%;
+        width:8.3%;
+    }
+    footer img{
+        width:98%;
+    }
+    footer .footerOne .two{
+        margin-left:12.5%;
+    }
+}
+
+/*响应式*/
+@media screen and (max-width: 900px) and (min-width: 400px) {
+
+    header table{
+        width:20%;
+    }
+    /*第二部分*/
+    /*第四部分*/
+    .company{
+       overflow: hidden;
+    }
+    .company p{
+        padding:6.5% 0 5% 0;
+    }
+    .company ul{
+        /*margin-left:10%;*/
+    }
+    .company ul li{
+        width:90px;
+    }
+    #content .company ul li{
+        float:left;
+    }
+    #content .content {
+        clear:both;
+    }
+    .content img{
+        float:left;
+    }
+    .content .one{
+        padding-left:27.75%;
+    }
+    /*第五部分*/
+    footer .footerOne .one,footer .footerOne .two{
+        float: left;
+    }
+    footer .footerOne .three{
+     clear:both;
+    }
+    footer .footerOne .two{
+        margin-left:12.5%;
+    }
+}
+@media screen and (max-width: 400px)  {
+    header table{
+        width:30%;
+    }
+    header img{
+        width:63%;
+    }
+    /*第二部分*/
+    #logo img{
+        /*width:28%;*/
+    }
+    /*第四部分*/
+    .company{
+        overflow: hidden;
+    }
+    .company p{
+        padding:6.5% 0 5% 0;
+    }
+    .company ul{
+        margin-left:10%;
+    }
+    .company ul li{
+        width:90px;
+    }
+    #content .company ul li{
+        float:left;
+    }
+    #content .content {
+        clear:both;
+    }
+    .content img{
+        float:none;
+    }
+    /*第五部分*/
+    footer .footerOne .two{
+        padding:15% 0 15% 0;
+    }
+}
+body{
+    max-width:1920px;
+    background: #fafafa;
+    font-family: "微软雅黑", sans-serif;
+    line-height: 100%;
+}
+/*第一部分*/
+.in1{
+    width:100%;
+    background: white;
+}
+header{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:1% 0 1% 0;
+    color:green;
+    position: relative;
+    font-size: 0.875em;
+}
+header table{
+    position: absolute;
+    right:0;
+    top:20%;
+    border-collapse:collapse;
+    text-align: right;
+}
+
+/*/!*第二部分*!/*/
+#logo{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:2.2% 0 2.2% 0;
+    position: relative;
+    color:white;
+    background: #26a26f;
+}
+#logo p{
+    display: inline;
+    position: absolute;
+    top:41%;
+    right:0;
+    width:100%;
+    text-align: right;
+}
+#logo span{
+    margin-left:5.3%;
+}
+/*第三部分*/
+.inBanner{
+    width:100%;
+    background: #f1a750;
+}
+#banner{
+    max-width: 1200px;
+    margin:0 auto;
+}
+#banner img{
+    width:100%;
+    display: block;
+}
+/*/!*第四部分*!/*/
+.company ul li:hover{
+
+    list-style-image:url(images8/yellow-circle.png);
+}
+#content{
+    max-width: 1200px;
+    margin:0 auto;
+    overflow:hidden;
+    line-height: 150%;
+    background: #fafafa;
+}
+#content .title{
+    padding:2.67% 0 2.5% 0;
+}
+#content .title span{
+    color:green;
+}
+.company,.content{
+    background: #ffffff;
+}
+.company p{
+    font-weight: bold;
+    text-align: center;
+}
+.company ul li{
+    list-style-image:url(images8/white-circle.png);
+    list-style-position: inside;
+    color:green;
+    font-size:0.875em;
+}
+.company ul .click{
+    list-style-image:url(images8/yellow-circle.png);
+}
+.content {
+    margin-left:1.8%;
+    font-size:0.875em;
+}
+.content img{
+    /*float:left;*/
+    margin:6.5% 0 0 9.6%;
+}
+.content p{
+    color:#999999;
+    text-indent: 4%;
+    padding:0 7% 6.3% 7%;
+}
+.content .one{
+    /*padding-left:27.75%;*/
+    padding-top:2.8%
+}
+/*第五部分*/
+footer {
+    max-width: 1200px;
+    margin:0 auto;
+    color:white;
+    line-height: 150%;
+    font-size: 0.875em;
+}
+ .in{
+    background: #26a26f;
+    width:100%;
+}
+footer .footerOne{
+    position: relative;
+    overflow: hidden;
+    margin-bottom:0.5%;
+}
+footer .footerOne div{
+    /*float: left;*/
+    padding:2.6% 0 1.6% 0;
+}
+footer .footerTwo{
+    clear:both;
+    text-align: center;
+    border-top: 1px solid #32c086;
+}
