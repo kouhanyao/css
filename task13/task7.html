@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>技能树首页</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="task7ex.css">
+    <!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+    <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-8 col-sm-4 col-md-3 green" >
+                        <p>客服热线：010-594-78634</p>
+                    </div>
+                    <div class="col-xs-1 col-xs-offset-1 visible-xs">
+                        <!--下拉菜单-->
+                        <div class="dropdown">
+                            <img src="images7/menu.png" alt="" type="button" class="btn dropdown-toggle" id="dropdownMenu1"
+                                     data-toggle="dropdown">
+                            <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#"><img src="images7/weixin1.png" alt=""></a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#"><img src="images7/qq.png" alt=""></a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">
+                                        <img src="images7/weixin2.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--下拉菜单玩-->
+                    </div>
+                    <div class="col-md-2 col-sm-3 hidden-xs col-md-offset-7 col-sm-offset-5 divRight">
+                        <div class="col-md-4  col-sm-4 col-xs-4 "><img src="images7/weixin1.png" alt=""></div>
+                        <div class="col-md-4  col-sm-4 col-xs-4"><img src="images7/qq.png" alt=""></div>
+                        <div class="col-md-4  col-sm-4 col-xs-4"><img src="images7/weixin2.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div style="background: #29b078">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-8 col-md-offset-6 col-sm-offset-4 divRight">
+                            <a class="" href="#">首页</a>
+                            <a href="#">职业</a>
+                            <a href="#">推荐</a>
+                            <a class="leftMove" href="#">关于</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="myCarousel" class="carousel slide " data-ride="carousel" data-interval="1000">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images7/one.png" alt="First slide">
+                </div>
+                <div class="item">
+                    <img src="images7/two.jpg" alt="Second slide">
+                </div>
+                <div class="item">
+                    <img src="images7/three.jpg" alt="Third slide">
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left" href="#myCarousel"
+               data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#myCarousel"
+               data-slide="next">&rsaquo;</a>
+        </div>
+        <div style="background: #fafafa">
+            <div class="container trdPart">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12 ">
+                        <img src="images7/fire.png" />
+                        <p class="title fontStrong">高效</p>
+                        <p class="content grey">将五到七年的成长时间缩短到一年到三年</p>
+                    </div>
+                    <!--<div class="clearfix visible-xs"></div>-->
+                    <!--<div class="clearfix visible-xs"></div>-->
+                    <div class="col-md-3 col-sm-3 col-xs-12 ">
+                        <img src="images7/book.png" />
+                        <p class="title fontStrong">规范</p>
+                        <p class="content grey two">标准的实战教程,不会走弯路</p>
+                    </div>
+                    <!--<div class="clearfix visible-xs"></div>-->
+                    <div class="col-md-3 col-sm-3 col-xs-12 ">
+                        <img src="images7/friend.png" />
+                        <p class="title fontStrong">人脉</p>
+                        <p class="content grey">同班好友，同院学长，技术大师，入学就混入职脉圈，为以后铺平道路。</p>
+                    </div>
+                    <!--<div class="clearfix visible-xs"></div>-->
+                    <div class="col-md-3 col-sm-3 col-xs-12 four">
+                        <img src="images7/people.png" /><span class="fontStrong green">12400</span><p class="grey">累计在线学习人数</p>
+                        <div style="height:26px;"></div>
+                        <img src="images7/people.png" /><span class="fontStrong green">12400</span><p class="grey">学院以找到满意工作</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container fourPart">
+                    <div class="row">
+                         <div class="col-md-12 col-sm-12 col-xs-12 fontStrong title">如何学习</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-10"><span>1</span><p>匹配你现在的个人情况<br/>寻找合适自己的岗位</p><i><img src="images7/triangle.png"/></i></div>
+                        <!--<div class="clearfix visible-xs"></div>-->
+                        <div class="col-md-3 col-sm-6 col-xs-10 "><span>2</span>  <p>了解职业前景薪金待遇,<br/>竞争压力</p> <i><img src="images7/triangle.png"/></i></div>
+                        <!--<div class="clearfix visible-xs"></div>-->
+                        <div class="col-md-3 col-sm-6 col-xs-10 "><span>3</span>  <p class="three">掌握行业内顶级技能</p><i><img src="images7/triangle.png"/></i></div>
+                        <!--<div class="clearfix visible-xs"></div>-->
+                        <div class="col-md-3 col-sm-6 col-xs-10 "><span>4</span> <p>查看职业目标任务</p><i><img src="images7/triangle.png"/></i></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-10 "> <span>5</span>  <p>参考学习资源，掌握<br/>技能点，逐个完成任务</p><i><img src="images7/triangle.png"/></i></div>
+                        <div class="clearfix visible-xs"></div>
+                        <div class="col-md-3 col-sm-6 col-xs-10 "> <span>6</span>  <p>加入班级，和小伙伴们<br/>互相帮助，一块学习</p><i><img src="images7/triangle.png"/></i> </div>
+                        <div class="clearfix visible-xs"></div>
+                        <div class="col-md-3 col-sm-6 col-xs-10 "> <span>7</span>  <p>选择导师，一路引导<br/>加快自己成长</p><i><img src="images7/triangle.png"/></i></div>
+                        <div class="clearfix visible-xs"></div>
+                        <div class="col-md-3 col-sm-6 col-xs-10 "> <span>8</span><p>完成职业技能，升<br/>级业界大牛</p><i><img src="images7/triangle.png"/></i></div>
+                    </div>
+            </div>
+            <div class="container fivePart">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12 title fontStrong">优秀学员展示</div>
+                    <div class="col-md-3 col-sm-6 col-xs-12" ><div class="box"><img src="images7/man.png"/> <p class="fontStrong adviser">技术顾问：罗大佑</p>
+                        <p class="content grey">百度技术总监：互联网基础服务领域，从事虚拟主机，云服务器，域名曾任新网高级技术经理，负责技术研发，
+                            团队管理与建设</p></div></div>
+                    <div class="col-md-3 col-sm-6 col-xs-12" ><div class="box"><img src="images7/man.png"/> <p class="fontStrong adviser">技术顾问：罗大佑</p>
+                        <p class="content grey">百度技术总监：互联网基础服务领域，从事虚拟主机，云服务器，域名曾任新网高级技术经理，负责技术研发，
+                            团队管理与建设</p></div></div>
+                    <div class="col-md-3 col-sm-6 col-xs-12"><div class="box"><img src="images7/man.png"/> <p class="fontStrong adviser">技术顾问：罗大佑</p>
+                        <p class="content grey">百度技术总监：互联网基础服务领域，从事虚拟主机，云服务器，域名曾任新网高级技术经理，负责技术研发，
+                            团队管理与建设</p></div></div>
+                    <div class="col-md-3 col-sm-6 col-xs-12" ><div class="box"><img src="images7/man.png"/> <p class="fontStrong adviser">技术顾问：罗大佑</p>
+                        <p class="content grey">百度技术总监：互联网基础服务领域，从事虚拟主机，云服务器，域名曾任新网高级技术经理，负责技术研发，
+                            团队管理与建设</p></div></div>
+                </div>
+            </div>
+            <div class="container fivePartCircle">
+                        <img src="images7/blue-circle.png">
+                        <img src="images7/blue-circle.png">
+                        <img src="images7/blue-circle.png">
+                        <img src="images7/blue-circle.png">
+            </div>
+            <div class="container sixPart">
+                <div class="row title fontStrong">
+                    战略合作企业
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12 hidden-xs">
+                        <a href="#" class="img1"></a>
+                        <a href="" class="leftMove img2"></a>
+                        <a href="" class="leftMove img3"></a>
+                        <a href="" class="leftMove img4"></a>
+                        <a href="" class="leftMove img5"></a>
+                    </div>
+                    <div class=" col-xs-6 visible-xs">
+                        <a href="" class="img1"></a>
+                    </div>
+                    <div class=" col-xs-6 visible-xs">
+                        <a href="" class="leftMove img2"></a>
+                    </div>
+                    <div class=" col-xs-6 visible-xs">
+                        <a href="" class="leftMove img3"></a>
+                    </div>
+                    <div class=" col-xs-6 visible-xs">
+                        <a href="" class="leftMove img4"></a>
+                    </div>
+                    <div class=" col-xs-6 visible-xs">
+                        <a href="" class="leftMove img5"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="padding:7%;background:#fafafa"></div>
+        <div class="sevenPart">
+            <div class="container">
+                <div class="row title fontStrong">
+                    友情链接
+                </div>
+                <div class="row ">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <ul class="" >
+                            <li class="">手机软件</li>
+                            <li class="leftMove">教师招聘</li>
+                            <li class="leftMove">找工作</li>
+                            <li class="leftMove">教师招聘</li>
+                            <li class="leftMove">找工作</li>
+                            <li class="leftMove interrupt">手机软件</li>
+                            <li class="leftMove">教师招聘</li>
+                            <li class="leftMove">手机软件</li>
+                            <li class="leftMove">手机软件</li>
+                            <li class="leftMove">找工作</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <ul class="" >
+                            <li>手机软件</li>
+                            <li class="leftMove">教师招聘</li>
+                            <li class="leftMove">找工作</li>
+                            <li class="leftMove">教师招聘</li>
+                            <li class="leftMove">找工作</li>
+                            <li class="leftMove">手机软件</li>
+                            <li class="leftMove">教师招聘</li>
+                            <li class="leftMove">手机软件</li>
+                            <li class="leftMove">手机软件</li>
+                            <li class="leftMove">找工作</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-9  do"><p>技能树--改变你我</p><br/><br/><p>关于我们|联系我们|合作企业</p></div>
+                    <div class="col-md-3 col-sm-4 col-xs-9 col-md-offset-1 do "><p>旗下网站</p><br/>
+                        <p>草船云孵化器 最强IT特训营</p><br/>
+                        <p>葡萄藤轻游戏 桌游精灵</p></div>
+                    <div class="col-md-2 col-sm-3 col-xs-9 col-md-offset-2 col-sm-offset-1"><p>微信公众平台</p>
+                        <p><img src="images7/weixin3.png"></p></div>
+                    <div class="col-md-12 col-sm-12 col-xs-12"> <p class="footer">Copyright © 2015 IT修真院 www.jnshu.com All Rights Reserved | 京ICP备13005880号</p></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--<script type="text/javascript" src="task7.js"></script>-->
+    <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <!-- 包括所有已编译的插件 -->
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>
