@@ -1,0 +1,338 @@
+table,body,tr,td,p,span,ul,li,img{
+    padding:0;
+    margin:0;
+}
+/*自适应*/
+@media screen  and (min-width: 1100px) {
+    #content .flipContainer .flipper{
+        padding-bottom: 111%;
+    }
+}
+@media screen and (max-width: 1100px) and (min-width: 950px) {
+    body{
+
+        font-size: 90%;
+    }
+    #content .flipContainer .flipper{
+        padding-bottom: 125%;
+    }
+}
+@media screen and (max-width: 950px) and (min-width: 850px) {
+    body{
+
+        font-size:80%;
+    }
+    #content .flipContainer .flipper{
+        padding-bottom: 160%;
+    }
+}
+@media screen and (max-width: 850px) and (min-width: 760px) {
+    body{
+
+        font-size: 70%;
+    }
+    #content .flipContainer .flipper{
+        padding-bottom: 165%;
+    }
+}
+
+@media screen  and (min-width:760px) {
+    header table img{
+        width:63%;
+    }
+    header{
+        padding:1.25% 0 1.25% 0;
+    }
+    /*第二部分*/
+    #logo img{
+        width:9%;
+    }
+    header table{
+        width:10%;
+    }
+    #content .flipper .from .people{
+        width:37%;
+    }
+    footer .footerOne .three{
+        position: absolute;
+        right:2.9%;
+        top:3.33%;
+    }
+    footer .footerOne .two{
+        margin-left:13%;
+    }
+    #content .flipContainer{
+        margin-left:2%;
+        width:31.83%;
+        float:left;
+    }
+    #content .flipContainerOne{
+        margin-left:0;
+    }
+}
+
+/*响应式*/
+
+@media screen and (max-width: 760px)  {
+    header table{
+        width:30%;
+    }
+    header{
+        padding:2.5% 0 2.5% 0;
+    }
+    #content .flipContainer{
+        max-width:382px;
+        margin:0 auto;
+    }
+    #content .position a{
+        display: block;
+        float: left;
+        clear:both;
+        margin:10px 0;
+    }
+    #content .position tt{
+        display: block;
+    }
+    footer .footerOne .two{
+       margin:10% 0;
+    }
+    footer .footerOne .three,footer .footerOne .one,footer .footerOne .two{
+        clear:both;
+        margin-left: 20%;
+    }
+    #content .flipContainer .flipper{
+        padding-bottom: 111%;
+    }
+}
+@media screen and (max-width: 400px)  {
+    #content .flipContainer .flipper{
+        padding-bottom: 130%;
+    }
+}
+@media screen and (max-width:330px)  {
+    #content .flipContainer .flipper{
+        padding-bottom: 145%;
+    }
+}
+#wrap{
+    max-width: 1920px;
+    font-family: "微软雅黑", sans-serif;
+    line-height: 100%;
+}
+/*第一部分*/
+.headerOne{
+    width:100%;
+    background: white;
+}
+header{
+    max-width:1200px;
+    margin:0 auto;
+    color:green;
+    position: relative;
+    font-size: 0.875em;
+}
+header table{
+    position: absolute;
+    right:0;
+    top:17.5%;
+    border-collapse:collapse;
+    text-align: right;
+}
+/*第二部分*/
+.logoTwo{
+    width:100%;
+    background: #26a26f;
+}
+#logo{
+    max-width:1200px;
+    margin:0 auto;
+    padding:2.16% 0 2.16% 0;
+    position: relative;
+    color:white;
+}
+#logo p{
+    display: inline;
+    position: absolute;
+    top:43%;
+    right:0;
+    width:100%;
+    text-align: right;
+}
+#logo span{
+    margin-left:3.3%;
+}
+/*第三部分*/
+.contentThree{
+    width:100%;
+    background: #fafafa;
+}
+#content{
+    margin:0 auto;
+    max-width:1200px;
+    overflow: hidden;
+    padding-bottom: 20%;
+}
+#content .title{
+    margin:2.58% 0 4.16% 0;
+}
+#content .title span{
+    color:green;
+}
+#content .position{
+    font-size: 0.875em;
+    margin:0 0 4.41% 0;
+}
+#content a{
+    text-decoration: none;
+    color:black;
+}
+#content a:hover{
+    background: green;
+}
+#content .firstPosition{
+    padding:0 0 2.75% 0;
+    border-bottom: 1px solid #d0d6d9;
+    font-weight: 700;
+    clear:both;
+}
+#content .flipContainer .flipper{
+    width:100%;
+    position: relative;
+}
+#content .from,#content .back{
+    position: absolute;
+    top:0;
+    left:0;
+}
+#content .flipper .from{
+    overflow: hidden;
+    background: #ffffff;
+    z-index:1;
+}
+#content .flipper .from .people{
+    float:left;
+    margin:5.2% 2% 0 2.6%;
+}
+#content .flipper .from h2{
+    font-size: 1em;
+    margin-top:8%;
+}
+#content .flipper .from p,.sixLine{
+    font-size: 0.875em;
+}
+#content .flipper .from table{
+    clear:both;
+    width:100%;
+    font-size: 0.75em;
+    vertical-align: middle;
+    line-height: 250%;
+}
+
+#content .flipper .from  td{
+    width:33.333%;
+}
+.firstLine,.secondLine,.sixLine,.sevenLine{
+    padding-left:2.6%;
+}
+.secondLine span,.sixLine span{
+    color:red;
+}
+.threeLine{
+    text-align: center;
+}
+.firstLine p,.secondLine p{
+    display: inline;
+}
+.firstLine img,.secondLine img{
+    width:4%;
+}
+.firstLine p{
+    margin-left:32%;
+}
+.secondLine p{
+    margin-left:22%;
+}
+.firstLine,.secondLine tt,.sevenLine{
+    color:#999999;
+}
+#content .flipper .back{
+    line-height: 150%;
+    color:white;
+    padding-bottom:9%;
+    background: #3d3d3d;
+}
+#content .back h2{
+
+    margin:22% 0 9.6% 0;
+    text-align: center;
+}
+#content .back p{
+    margin:0 11% 0 11%;
+}
+/*卡片翻转效果*/
+#content .flipper{
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;	/* Safari 和 Chrome */
+
+    transition: 1s;
+    -moz-transition: 1s;	/* Firefox 4 */
+    -webkit-transition: 1s;	/* Safari 和 Chrome */
+    -o-transition:  1s;	/* Opera */
+    display:block;
+}
+#content .back ,#content .from{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.from,.back{
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;	/* Chrome 和 Safari */
+    -moz-backface-visibility:hidden; 	/* Firefox */
+}
+.back{
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);	/* Safari 和 Chrome */
+    -moz-transform: rotateY(180deg);	/* Firefox */
+}
+#content .flipContainer:hover .flipper{
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);	/* Safari 和 Chrome */
+    -moz-transform: rotateY(180deg);	/* Firefox */
+}
+#content .flipContainer{
+    /*width:31.8%;*/
+    perspective: 1000px;
+    -webkit-perspective: 1000px; /* Safari 和 Chrome */
+    margin-top:3.8%;
+    margin-bottom:4.1%;
+}
+/*卡片翻转效果程序玩*/
+/*第四部分*/
+.footerFour{
+    width: 100%;
+    background: #26a26f;
+}
+footer{
+    max-width:1200px;
+    margin:0 auto;
+    color:white;
+    overflow: hidden;
+    line-height: 150%;
+    font-size: 0.8em;
+}
+footer .footerOne{
+    /*width:100%;*/
+    position: relative;
+    overflow: hidden;
+}
+footer .footerOne div{
+    float: left;
+    padding:3.33% 0 3% 0;
+}
+
+footer .footerTwo{
+    clear:both;
+    text-align: center;
+    border-top: 1px solid #32c086;
+}
